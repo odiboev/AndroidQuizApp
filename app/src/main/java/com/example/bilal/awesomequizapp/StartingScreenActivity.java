@@ -28,3 +28,5 @@ public class StartingScreenActivity extends AppCompatActivity {
         startActivity(intent);
     }
 }
+
+// TODO: 9/8/2018 Model class for actions
