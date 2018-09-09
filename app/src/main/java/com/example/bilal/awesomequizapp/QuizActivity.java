@@ -1,5 +1,6 @@
 package com.example.bilal.awesomequizapp;
 
+import android.content.res.ColorStateList;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
@@ -20,7 +21,13 @@ public class QuizActivity extends AppCompatActivity {
     private RadioButton rb3;
     private Button buttonConfirmNext;
 
+    private ColorStateList textColorDefaultRb;
+
     private List<Question> questionList;
+    private int questionCounter;
+    private int questionCountTotal;
+    private Question currentQuestion;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
